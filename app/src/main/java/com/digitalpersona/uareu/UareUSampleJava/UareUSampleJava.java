@@ -7,25 +7,18 @@
 
 package com.digitalpersona.uareu.UareUSampleJava;
 
-import com.digitalpersona.uareu.Reader;
-import com.digitalpersona.uareu.Reader.Priority;
-import com.digitalpersona.uareu.UareUException;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.os.Bundle;
 
-import android.content.Context;
-import android.app.PendingIntent; 
-import android.content.BroadcastReceiver;
-import android.content.IntentFilter;
-
-import android.util.Log;
+import com.digitalpersona.uareu.Reader;
+import com.digitalpersona.uareu.Reader.Priority;
+import com.digitalpersona.uareu.UareUException;
 
 
 public class UareUSampleJava extends Activity {
@@ -64,12 +57,12 @@ public class UareUSampleJava extends Activity {
 		setContentView(R.layout.activity_main);
 
 		m_getReader = (Button) findViewById(R.id.get_reader);
-		m_getCapabilities = (Button) findViewById(R.id.get_capabilities);
-		m_captureFingerprint = (Button) findViewById(R.id.capture_fingerprint);
-		m_streamImage = (Button) findViewById(R.id.stream_image);
-		m_enrollment = (Button) findViewById(R.id.enrollment);
+	//	m_getCapabilities = (Button) findViewById(R.id.get_capabilities);
+	//	m_captureFingerprint = (Button) findViewById(R.id.capture_fingerprint);
+	//	m_streamImage = (Button) findViewById(R.id.stream_image);
+	//	m_enrollment = (Button) findViewById(R.id.enrollment);
 		m_verification = (Button) findViewById(R.id.verification);
-		m_identification = (Button) findViewById(R.id.identification);
+	//	m_identification = (Button) findViewById(R.id.identification);
 		m_selectedDevice = (TextView) findViewById(R.id.selected_device);
 
 		setButtonsEnabled(false);
@@ -83,6 +76,7 @@ public class UareUSampleJava extends Activity {
 			}
 		});
 
+		/*
 		m_getCapabilities.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				launchGetCapabilities();
@@ -106,18 +100,19 @@ public class UareUSampleJava extends Activity {
 				launchEnrollment();
 			}
 		});
-
+		*/
 		m_verification.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				launchVerification();
 			}
 		});
-
+/*
 		m_identification.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				launchIdentification();
 			}
 		});
+		*/
 	}
 
 	protected void launchGetReader() {
@@ -126,7 +121,7 @@ public class UareUSampleJava extends Activity {
 		i.putExtra("device_name", m_deviceName);
 		startActivityForResult(i, 1);
 	}
-
+/*
 	protected void launchGetCapabilities() {
 		Intent i = new Intent(UareUSampleJava.this,
 				GetCapabilitiesActivity.class);
@@ -156,14 +151,14 @@ public class UareUSampleJava extends Activity {
 		i.putExtra("device_name", m_deviceName);
 		startActivityForResult(i, 1);
 	}
-
+*/
 	protected void launchVerification() {
 		Intent i = new Intent(UareUSampleJava.this, VerificationActivity.class);
 		i.putExtra("serial_number", m_sn);
 		i.putExtra("device_name", m_deviceName);
 		startActivityForResult(i, 1);
 	}
-
+/*
 	protected void launchIdentification() {
 		Intent i = new Intent(UareUSampleJava.this,
 				IdentificationActivity.class);
@@ -171,30 +166,30 @@ public class UareUSampleJava extends Activity {
 		i.putExtra("device_name", m_deviceName);
 		startActivityForResult(i, 1);
 	}
-
+*/
 	@Override
 	public void onBackPressed() { 
 		super.onBackPressed();
 	}
 
 	protected void setButtonsEnabled(Boolean enabled) {
-		m_getCapabilities.setEnabled(enabled);
-		m_streamImage.setEnabled(enabled);
-		m_captureFingerprint.setEnabled(enabled);
-		m_enrollment.setEnabled(enabled);
+		//m_getCapabilities.setEnabled(enabled);
+		//m_streamImage.setEnabled(enabled);
+		//m_captureFingerprint.setEnabled(enabled);
+		//m_enrollment.setEnabled(enabled);
 		m_verification.setEnabled(enabled);
-		m_identification.setEnabled(enabled);
+		//m_identification.setEnabled(enabled);
 	}
 
 	protected void setButtonsEnabled_Capture(Boolean enabled) {
-		m_captureFingerprint.setEnabled(enabled);
-		m_enrollment.setEnabled(enabled);
+	//	m_captureFingerprint.setEnabled(enabled);
+	//	m_enrollment.setEnabled(enabled);
 		m_verification.setEnabled(enabled);
-		m_identification.setEnabled(enabled);
+	//	m_identification.setEnabled(enabled);
 	}
 
 	protected void setButtonsEnabled_Stream(Boolean enabled) {
-		m_streamImage.setEnabled(enabled);
+	//	m_streamImage.setEnabled(enabled);
 	}
 
 
