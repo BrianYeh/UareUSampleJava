@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DigitalPersona U are U SDK Sample</string>
+    <string name="back">Back</string>
+    <string name="capture_fingerprint">Capture</string>
+    <string name="enrollment">Enrollment</string>
+    <string name="get_capabilities">Get Capabilities</string>
+    <string name="get_reader">Get Reader</string>
+    <string name="identification">Identification</string>
+    <string name="menu_settings">Settings</string>
+    <string name="select">Select</string>
+    <string name="serial_number">Serial Number: (No Reader Selected)</string>
+    <string name="stream_image">Stream Image</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="verification">Verification</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/brianyeh/Projects/Android/UareUSampleJava/app/libs/dpuareu.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d797a3a5da68c1c4774f7f1b145f0f66328c8b3d">
+        <dex dex="/home/brianyeh/Projects/Android/UareUSampleJava/app/build/intermediates/pre-dexed/debug/dpuareu_83128e49059d48f54e1244ee49a2c1216c6f968b.jar" />
+    </item>
+
+</items>

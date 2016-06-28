@@ -1,0 +1,125 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:3:7-57
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:5:7-34
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:6:5-74
+	android:targetSdkVersion
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:6:42-71
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:6:15-41
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+		INJECTED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:10:5-78:19
+	android:label
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:10:48-80
+	android:allowBackup
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:10:81-107
+	android:icon
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:10:18-47
+activity#com.digitalpersona.uareu.UareUSampleJava.UareUSampleJava
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:11:9-28:20
+	android:label
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:13:19-51
+	android:exported
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:12:19-42
+	android:configChanges
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:14:19-80
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:11:19-90
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.digitalpersona.uareu.UareUSampleJava.GetReaderActivity
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:29:9-35:20
+	android:label
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:30:19-51
+	android:configChanges
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:31:19-80
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:29:19-92
+intent-filter#android.intent.category.LAUNCHER
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:32:13-34:29
+activity#com.digitalpersona.uareu.UareUSampleJava.GetCapabilitiesActivity
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:36:9-42:20
+	android:label
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:37:19-51
+	android:configChanges
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:38:19-80
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:36:19-98
+activity#com.digitalpersona.uareu.UareUSampleJava.CaptureFingerprintActivity
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:43:9-49:20
+	android:label
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:44:19-51
+	android:configChanges
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:45:19-80
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:43:19-101
+activity#com.digitalpersona.uareu.UareUSampleJava.StreamImageActivity
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:50:9-56:20
+	android:label
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:51:19-51
+	android:configChanges
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:52:19-80
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:50:19-94
+activity#com.digitalpersona.uareu.UareUSampleJava.EnrollmentActivity
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:57:9-63:20
+	android:label
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:58:19-51
+	android:configChanges
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:59:19-80
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:57:19-93
+activity#com.digitalpersona.uareu.UareUSampleJava.VerificationActivity
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:64:9-70:20
+	android:label
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:65:19-51
+	android:configChanges
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:66:19-80
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:64:19-95
+activity#com.digitalpersona.uareu.UareUSampleJava.IdentificationActivity
+ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:71:9-77:20
+	android:label
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:72:19-51
+	android:configChanges
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:73:19-80
+	android:name
+		ADDED from /home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/AndroidManifest.xml:71:19-97

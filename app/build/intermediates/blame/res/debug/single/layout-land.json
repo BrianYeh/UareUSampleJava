@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/brianyeh/Projects/Android/UareUSampleJava/app/build/intermediates/res/merged/debug/layout-land/activity_capture_stream.xml",
+        "source": "/home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/res/layout-land/activity_capture_stream.xml"
+    },
+    {
+        "merged": "/home/brianyeh/Projects/Android/UareUSampleJava/app/build/intermediates/res/merged/debug/layout-land/activity_engine.xml",
+        "source": "/home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/res/layout-land/activity_engine.xml"
+    },
+    {
+        "merged": "/home/brianyeh/Projects/Android/UareUSampleJava/app/build/intermediates/res/merged/debug/layout-land/activity_engine_320x240.xml",
+        "source": "/home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/res/layout-land/activity_engine_320x240.xml"
+    },
+    {
+        "merged": "/home/brianyeh/Projects/Android/UareUSampleJava/app/build/intermediates/res/merged/debug/layout-land/activity_capture_stream_320x240.xml",
+        "source": "/home/brianyeh/Projects/Android/UareUSampleJava/app/src/main/res/layout-land/activity_capture_stream_320x240.xml"
+    }
+]
